@@ -57,7 +57,7 @@ background-size: cover;*/
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
-    color: rgb(48, 48, 48);
+    color: black;
     line-height: 1.5;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
@@ -345,7 +345,6 @@ button{
 }
 .toggle input:checked + label {
     /* background-color: #a6c1ca; */
-  
     box-shadow: 0px 1px 4px #868686;
     
 
@@ -363,6 +362,8 @@ button{
     font-weight: 200;
     color: white;
   }
+
+
   
   input {
     opacity: 0;
@@ -618,7 +619,7 @@ transition: opacity 0.5s ease-in-out;
 .header .nav-inner ul li a{
 font-size: 40px;
 text-transform: capitalize;
-color: var(--blue-dark);
+color: black;
 display: block;
 font-weight: 500;
 padding: 8px 15px;

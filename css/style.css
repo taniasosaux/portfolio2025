@@ -57,7 +57,7 @@ background-size: cover;*/
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
-    color: black;
+    color: rgb(48, 48, 48);
     line-height: 1.5;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
@@ -331,6 +331,7 @@ button{
     border-radius: 20px;
     padding: 3px;
     box-shadow: 0px 1px 4px #bcbdbf;
+    
 }
 .toggle__ball {
     width: 35px;
@@ -348,7 +349,6 @@ button{
     box-shadow: 0px 1px 4px #868686;
     
 
-
 }
 .toggle input:checked + label .toggle__ball {
     transform: translateX(39px);
@@ -358,7 +358,10 @@ button{
  
   body.dark {
     background: var(--dark-2);
-    
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    color: white;
   }
   
   input {
@@ -393,13 +396,13 @@ button{
 }
 
 .bg-circles .circle-2{
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
     background-color: var(--main-color);
     left: 30%;
     top: 50%;
     opacity: 0.4;
-    animation: bounceTop 5s ease-in-out infinite;
+    animation: bounceTop 10s ease-in-out infinite;
 }
 
 .bg-circles .circle-3{
@@ -416,7 +419,7 @@ button{
     height: 100px;
     width: 100px;
     background-color: orange;
-    top: 60%;
+    top: 90%;
     left: -30px;
     opacity: 0.6;
 }
@@ -615,7 +618,7 @@ transition: opacity 0.5s ease-in-out;
 .header .nav-inner ul li a{
 font-size: 40px;
 text-transform: capitalize;
-color: black;
+color: var(--blue-dark);
 display: block;
 font-weight: 500;
 padding: 8px 15px;
@@ -770,7 +773,7 @@ margin: 0 15px 15px 0;
     border:none;
     text-transform: capitalize;
   display: inline-block;
-  color: var(--blue-dark);
+  color: #484848;
   font-size: 20px;
   cursor: pointer;
   font-weight: 500;

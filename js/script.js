@@ -23,6 +23,7 @@ function toggleNavbar(){
     document.querySelector(".header").classList.toggle("active");
 };
 
+
 /* ---- Active Section ---- */
 
 document.addEventListener("click", (e) =>{

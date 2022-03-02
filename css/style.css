@@ -327,34 +327,50 @@ button{
     width: 80px;
     height: 40px;
     line-height: 1.5;
-    border:2px solid var(--white-alpha-40);
+    background-color: var(--white-alpha-25); 
+    border:1px solid var(--white-alpha-40);
     border-radius: 20px;
     padding: 3px;
     box-shadow: 0px 1px 4px #bcbdbf;
     
 }
-.toggle__ball {
+.sun-moon {
     width: 35px;
     height: 100%;
     line-height: 1.5;
-    background-color: var(--white-alpha-40); 
+    background-color: var(--white-alpha-25); 
     border:1.5px solid var(--white-alpha-40);
-
     align-items: center;
     border-radius: 50%;
     box-shadow: 0px 1px 3px #b4c1c5;
     transition: transform ease 0.3s;
 }
-.toggle input:checked + label {
-    /* background-color: #a6c1ca; */
-    box-shadow: 0px 1px 4px #868686;
-    
 
-}
-.toggle input:checked + label .toggle__ball {
-    transform: translateX(39px);
-    /* background-color: #dcdddf; */
-}
+
+#toggle-button:checked + label {
+    background-color: var(--white-alpha-25); 
+    border:1.5px solid var(--white-alpha-40);
+    background-position: center;
+    background-size: cover;
+  }
+
+  label .sun-moon {
+    background-image: url("https://github.com/taniasosaux/portfolio2022/blob/master/img/moon16.png?raw=true");
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease;
+    width: 30px;
+  }
+
+  #toggle-button:checked + label .sun-moon {
+    background-image: url("https://github.com/taniasosaux/portfolio2022/blob/master/img/sun512.png?raw=true");
+    background-position: center;
+    background-size: cover;
+    transform: translateX(40px);
+  }
+
+  
+
 
  
   body.dark {

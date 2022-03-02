@@ -353,7 +353,7 @@ button{
   }
 
   label .sun-moon {
-    background-image: url("https://github.com/taniasosaux/portfolio2022/blob/master/img/new-moon.png?raw=true");
+    background-image: url("https://github.com/taniasosaux/portfolio2022/blob/master/img/full-moon.png?raw=true");
     background-position: center;
     background-size: cover;
     transition: transform 0.3s ease;

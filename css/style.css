@@ -16,7 +16,7 @@
      --cyan-light: #aef1ee;
      --white: #ffffff;
      --white-alpha-40: rgba(255,255,255, 0.40);
-     --white-alpha-25: rgba(255,255,255, 0.25);
+     --white-alpha-25: rgba(255, 255, 255, 0.30);
      --backdrop-filter-blur: blur(5px);
      --light-0: #f8f9fa;
      --light-1: #e9ecef;
@@ -43,6 +43,7 @@ outline: none;
 }
 
 body {
+
     min-height: 100vh;
     background: linear-gradient(45deg, #ffdf78, #ffbbb5, #f9b8e7);
     background-size: 1000% 1000%;
@@ -53,7 +54,7 @@ body {
     animation: AnimationName 60s ease infinite;
     /*background-image: url("../img/background.png");
 background-size: cover;*/
-    background-attachment:fixed;
+   background-attachment:fixed;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
@@ -62,6 +63,8 @@ background-size: cover;*/
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
     padding: 35px 15px;
+
+   /* background-image: url("../img/Platzi_BG.png");*/
 }
 
 

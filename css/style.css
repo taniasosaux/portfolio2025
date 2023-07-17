@@ -2,14 +2,14 @@
  Fonts
  -------------- */
  
- @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@300;400;600;700;800&display=swap');
 
 /* -----------
  Variables
  -------------- */
  :root {
      --main-color:#e02f6b;
-     --blue: #98CA3F;
+     --platzi: #98CA3F;
      --blue-dark: #18293c;
      --green-yellow: #cddc3c;
      --pink-light: #efa2b4;
@@ -56,9 +56,9 @@ body {
 background-size: cover;*/
    background-attachment:fixed;
     font-size: 16px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 200;
-    color: black;
+    color: var(--dark-1);
     line-height: 1.5;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
@@ -378,7 +378,7 @@ button{
   body.dark {
     background: var(--dark-2);
     font-size: 16px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 200;
     color: white;
   }
@@ -409,7 +409,7 @@ button{
 .bg-circles .circle-1{
     height: 100px;
     width: 100px;
-    background-color: var(--blue);
+    background-color: var(--platzi);
     left: 5%;
     top: 10%;
     opacity: 0.3;
@@ -444,6 +444,16 @@ button{
     left: -20px;
     opacity: 0.6;
     animation: zoomInOut 8s linear infinite;
+}
+
+.bg-circles .circle-5{
+    height: 200px;
+    width: 200px;
+    background-color: #FFBF40;
+    top: 90%;
+    right: -90px;
+    opacity: 0.6;
+   
 }
 
 /* Overlay */

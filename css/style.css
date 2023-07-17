@@ -9,15 +9,15 @@
  -------------- */
  :root {
      --main-color:#e02f6b;
-     --blue: #0000ff;
+     --blue: #98CA3F;
      --blue-dark: #18293c;
      --green-yellow: #cddc3c;
      --pink-light: #efa2b4;
-     --cyan-light: #aef1ee;
+     --cyan-light: #399ee3;
      --white: #ffffff;
      --white-alpha-40: rgba(255,255,255, 0.40);
      --white-alpha-25: rgba(255, 255, 255, 0.30);
-     --backdrop-filter-blur: blur(5px);
+     --backdrop-filter-blur: blur(3px);
      --light-0: #f8f9fa;
      --light-1: #e9ecef;
      --light-2: #dee2e6;
@@ -407,23 +407,23 @@ button{
 }
 
 .bg-circles .circle-1{
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     background-color: var(--blue);
     left: 5%;
     top: 10%;
     opacity: 0.3;
-    animation: zoomInOut 8s linear infinite;
+    animation: bounceTop 10s linear infinite ;
 }
 
 .bg-circles .circle-2{
     height: 150px;
     width: 150px;
     background-color: var(--main-color);
-    left: 30%;
-    top: 50%;
+    left: 50%;
+    top: 30%;
     opacity: 0.4;
-    animation: bounceTop 10s ease-in-out infinite;
+    animation: 10s ease-in-out infinite;
 }
 
 .bg-circles .circle-3{
@@ -433,16 +433,17 @@ button{
     top: 20%;
     right: -60px;
     opacity: 0.6;
-    animation: zoomInOut 10s linear infinite;
+    animation: bounceTop 10s linear infinite;
 }
 
 .bg-circles .circle-4{
-    height: 100px;
-    width: 100px;
-    background-color: orange;
-    top: 90%;
-    left: -30px;
+    height: 120px;
+    width: 120px;
+    background-color: var(--cyan-light);
+    top: 70%;
+    left: -20px;
     opacity: 0.6;
+    animation: zoomInOut 8s linear infinite;
 }
 
 /* Overlay */

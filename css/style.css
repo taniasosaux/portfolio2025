@@ -948,7 +948,45 @@ font-weight: 400;
        }
 
 
-        /* Portfolio popup */
+
+
+
+/* Speaker Section */
+
+.speaker-section{
+    padding-bottom: 50px;
+ }
+
+ .speaker-item{
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px 30px;
+}
+
+ .speaker-item-thumbnail{
+     padding: 10px;
+     background-color: var(--white-alpha-25);
+     border:1px solid var(--white-alpha-40);
+     border-radius: 10px;
+    }
+
+ .speaker-item-thumbnail img{
+    width: 100%;
+    border-radius: 10px;
+   }
+
+   .speaker-item h3{
+   font-size: 20px;
+   text-transform: capitalize;
+   margin: 20px 0;
+   text-align: left;
+}
+
+    .speaker-item-details{
+        display: none;
+       }
+
+
+          /* Portfolio popup */
 .portfolio-popup{
     position: fixed;
     left: 0;
@@ -1040,6 +1078,7 @@ font-weight: 400;
     text-transform: lowercase;
     color: var(--main-color);
 }
+
 
 /* Contact Section */
 
